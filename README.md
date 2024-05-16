@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**Project Idea: "Task-Based Project Management Tool"**
 
-## Getting Started
+**Description:**
+Create a task-based project management tool that helps users plan and track their projects, assign tasks, and collaborate with team members. This project provides an opportunity to learn various front-end and back-end frameworks while building a practical tool for project management and collaboration. Users should be able to register, create projects, assign tasks, and monitor progress.
 
-First, run the development server:
+**Rubric:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Rubric turned in on time (5 points):**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Languages/Frameworks used (20 points):**
+   - 10 - Learn and use React for the front-end
+   - 10 - Learn and use MongoDB for data storage across sessions (Next JS for intermediary)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Functionality (60 points):**
+   - 5 - Users can register, log in, and log out. 
+   - 10 - Users can create projects, with project details such as title, description, and start date.
+   - 10 - Users can create tasks within projects, assign tasks to team members, and set task deadlines.
+   - 10 - Users can update task status (e.g., to-do, in-progress, completed) and add comments.
+   - 10 - Implement a dashboard that displays an overview of projects, tasks, and deadlines.
+   - 15 - Ensure data persistence, i.e., user accounts, project details, task details, comments, and progress tracking should be stored in a database (e.g., MongoDB) with the necessary columns and data types for maintaining the above functionality.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. **Best Practices (5 points):**
+   - 3 - Code is well formatted and follows best coding practices.
+   - 2 - All pages pass the HTML validator.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. **Creative Portion (10 points):**
+Possible Ideas...
+   - Implement responsive design to make the application mobile-friendly.
+   - Create a notification system to alert users of task assignments and deadlines.
+   - Implement data visualization (e.g., Gantt charts) for project and task timelines.
+   - Integrate file uploads for attaching project-related documents.
